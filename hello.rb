@@ -27,7 +27,7 @@ ip_to_domain["rubyguides.com"] = "8.8.8.8"
 puts ip_to_domain["rubyguides.com"]
 
 unless 2 > 3
-    puts("dont get confuse")
+    puts("dont get confused")
 end
 
 #read
