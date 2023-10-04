@@ -36,3 +36,15 @@ p gets
 #removes the newline char
 name = gets.chomp
 p name
+
+class Book
+    def initialize(title, author)
+        @title  = title
+        @author = author
+    end
+    def what_am_i
+      puts "I'm a book!" + @title
+    end
+  end
+
+puts Book.new("book title", "book author").what_am_i
